@@ -11,4 +11,4 @@ Thumbs.db
 # Ignore Electron build files
 dist/
 out/
-release/
+release/gi
