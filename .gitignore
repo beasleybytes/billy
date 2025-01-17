@@ -1,0 +1,14 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore the SQLite database file
+budget.db
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Electron build files
+dist/
+out/
+release/
