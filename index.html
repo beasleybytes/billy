@@ -1,1 +1,30 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Budget App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Local Budget App</h1>
+    <div class="form">
+      <input type="text" id="name-input" placeholder="Enter name">
+      <input type="number" id="amount-input" placeholder="Enter amount">
+      <select id="type-input">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+      <button id="add-bill">Add Bill</button>
+    </div>
+    <ul id="bill-list"></ul>
+    <div id="totals">
+      <p><strong>Total Income:</strong> $<span id="total-income">0.00</span></p>
+      <p><strong>Total Expenses:</strong> $<span id="total-expenses">0.00</span></p>
+      <p><strong>Net Balance:</strong> $<span id="net-balance">0.00</span></p>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
